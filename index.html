@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="hi" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>सिंघई ऑटो पार्ट्स एवं इलेक्ट्रिकल्स (Singhai Auto Parts & Electricals) | गढ़ाकोटा</title>
+  <meta name="description" content="सिंघई ऑटो पार्ट्स एवं इलेक्ट्रिकल्स, दमोह रोड, गढ़ाकोटा। बाइक सर्विसिंग, असली ऑटो पार्ट्स, लेथ मशीन रिपेयरिंग एवं मोटर वाइंडिंग कार्य।" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-content">
+      <div class="top-bar-left">
+        <span><i class="fa-solid fa-clock"></i> <span data-i18n="timing">सोमवार - रविवार: सुबह 09:00 - रात 10:00</span></span>
+        <span class="desktop-only"><i class="fa-solid fa-location-dot"></i> <span data-i18n="address_short">दमोह रोड, गढ़ाकोटा, जिला सागर (म.प्र.)</span></span>
+      </div>
+      <div class="top-bar-right">
+        <a href="tel:+917389024644" class="top-link"><i class="fa-solid fa-phone"></i> +91 73890 24644</a>
+        <span class="desktop-only text-muted">|</span>
+        <a href="tel:+919302378439" class="top-link desktop-only"><i class="fa-solid fa-phone"></i> +91 93023 78439</a>
+        <div class="lang-switch-wrapper">
+          <button id="langToggleBtn" class="lang-btn" aria-label="Switch Language">
+            <i class="fa-solid fa-globe"></i>
+            <span id="currentLangLabel">English</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-content">
+      <a href="#hero" class="brand-logo">
+        <div class="logo-icon"><i class="fa-solid fa-motorcycle"></i></div>
+        <div class="logo-text">
+          <span class="logo-title" data-i18n="logo_title">सिंघई <span class="highlight">ऑटो</span></span>
+          <span class="logo-subtitle" data-i18n="logo_subtitle">ऑटो पार्ट्स, सर्विस & इलेक्ट्रिकल्स • गढ़ाकोटा</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#hero" class="nav-item active" data-i18n="nav_home">होम</a>
+        <a href="#services" class="nav-item" data-i18n="nav_services">सेवाएं</a>
+        <a href="#parts" class="nav-item" data-i18n="nav_parts">ऑटो पार्ट्स</a>
+        <a href="#machine" class="nav-item" data-i18n="nav_machine">मशीन व इलेक्ट्रिकल्स</a>
+        <a href="#booking" class="nav-item" data-i18n="nav_booking">सर्विस बुकिंग</a>
+        <a href="#reviews" class="nav-item" data-i18n="nav_reviews">रिव्यूज</a>
+        <a href="#contact" class="nav-item" data-i18n="nav_contact">संपर्क व मैप</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#booking" class="btn btn-primary nav-cta">
+          <i class="fa-solid fa-wrench"></i>
+          <span data-i18n="cta_book_now">बुक सर्विस</span>
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-glow"></div>
+    <div class="container hero-container">
+      <div class="hero-text">
+        <div class="badge-pill">
+          <span class="pulse-dot"></span>
+          <span data-i18n="hero_badge">100% ओरिजिनल पार्ट्स & प्रमाणित मैकेनिक</span>
+        </div>
+        <h1 class="hero-heading" data-i18n="hero_title">
+          आपकी बाइक की सुपरफास्ट केयर और विश्वसनीय मशीन रिपेयरिंग!
+        </h1>
+        <p class="hero-desc" data-i18n="hero_desc">
+          टू-व्हीलर जनरल सर्विसिंग, इंजन ट्यूनिंग, सस्पेंशन वर्क, जेन्युइन ऑटो पार्ट्स और लेट-कटिंग, मोटर, खराद व इंडस्ट्रियल मशीन रिपेयर का संपूर्ण समाधान एक ही छत के नीचे।
+        </p>
+        <div class="hero-cta-group">
+          <a href="#booking" class="btn btn-primary btn-lg">
+            <i class="fa-solid fa-calendar-check"></i>
+            <span data-i18n="hero_cta_book">तुरंत सर्विस स्लॉट बुक करें</span>
+          </a>
+          <a href="https://wa.me/917389024644?text=नमस्ते!%20मुझे%20बाइक%20सर्विसिंग%20या%20मशीन%20रिपेयर%20के%20बारे%20में%20जानकारी%20चाहिए।" target="_blank" class="btn btn-whatsapp btn-lg">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span data-i18n="hero_cta_wa">व्हाट्सएप पर बात करें</span>
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-number">15+</span>
+            <span class="stat-label" data-i18n="stat_exp">वर्षों का अनुभव</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">12,000+</span>
+            <span class="stat-label" data-i18n="stat_bikes">बाइक्स रिपेयर & सर्विस</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">100%</span>
+            <span class="stat-label" data-i18n="stat_parts">जेन्युइन स्पेयर पार्ट्स</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-card-preview">
+        <div class="glass-card main-preview-card">
+          <div class="card-header-badge">
+            <i class="fa-solid fa-award"></i> <span data-i18n="top_rated">टॉप रेटेड वर्कशॉप</span>
+          </div>
+          <div class="service-highlight-list">
+            <div class="hl-item">
+              <div class="hl-icon bg-orange"><i class="fa-solid fa-oil-can"></i></div>
+              <div>
+                <h4 data-i18n="hl1_t">मोबिल ऑयल & फिल्टर चेंज</h4>
+                <p data-i18n="hl1_d">Castrol, Motul, Shell 100% असली ग्रेड</p>
+              </div>
+            </div>
+            <div class="hl-item">
+              <div class="hl-icon bg-blue"><i class="fa-solid fa-gear"></i></div>
+              <div>
+                <h4 data-i18n="hl2_t">खराद & मशीनरी वेल्डिंग वर्क</h4>
+                <p data-i18n="hl2_d">लेथ मशीन, ड्रिलिंग, थ्रेडिंग, इंजन बोरिंग</p>
+              </div>
+            </div>
+            <div class="hl-item">
+              <div class="hl-icon bg-green"><i class="fa-solid fa-shield-halved"></i></div>
+              <div>
+                <h4 data-i18n="hl3_t">क्विक पिकअप & डिलीवरी</h4>
+                <p data-i18n="hl3_d">आस-पास के एरिया में ऑन-डिमांड सुविधा</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer-tip">
+            <i class="fa-solid fa-circle-check text-success"></i>
+            <span data-i18n="trust_note">ईमानदार काम, वाजिब रेट और गारंटीड संतुष्टि!</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Info Highlights -->
+  <section class="highlights-bar">
+    <div class="container highlight-grid">
+      <div class="feat-box">
+        <i class="fa-solid fa-screwdriver-wrench"></i>
+        <div>
+          <h4 data-i18n="feat_1_t">एक्सपर्ट मैकेनिक</h4>
+          <p data-i18n="feat_1_d">हर तरह की स्पोर्ट्स, कम्यूटर और स्कूटी स्पेशलिस्ट</p>
+        </div>
+      </div>
+      <div class="feat-box">
+        <i class="fa-solid fa-boxes-stacked"></i>
+        <div>
+          <h4 data-i18n="feat_2_t">सभी ओरिजिनल पार्ट्स स्टॉक</h4>
+          <p data-i18n="feat_2_d">Hero, Bajaj, Honda, TVS, Yamaha, Royal Enfield</p>
+        </div>
+      </div>
+      <div class="feat-box">
+        <i class="fa-solid fa-industry"></i>
+        <div>
+          <h4 data-i18n="feat_3_t">मशीन व लेथ वर्कशॉप</h4>
+          <p data-i18n="feat_3_d">इंजन बोरिंग, टर्निंग, थ्रेड रिपेयर, मोटर रिवाइंडिंग</p>
+        </div>
+      </div>
+      <div class="feat-box">
+        <i class="fa-solid fa-indian-rupee-sign"></i>
+        <div>
+          <h4 data-i18n="feat_4_t">उचित व पारदर्शी रेट्स</h4>
+          <p data-i18n="feat_4_d">कोई छुपा हुआ चार्ज नहीं, बिलिंग के साथ काम</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bike Services Section -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-title-wrap">
+        <span class="sub-title" data-i18n="services_sub">वर्कशॉप सुविधाएं</span>
+        <h2 class="main-title" data-i18n="services_head">टू-व्हीलर सर्विसिंग और मेंटेनेंस पैकेज</h2>
+        <p class="section-desc" data-i18n="services_desc">
+          आपकी बाइक का माइलेज और परफॉर्मेंस हमेशा रहे टॉप क्लास। हम आधुनिक टूल्स और कम्प्यूटरीकृत चेकअप के साथ सर्विस करते हैं।
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service 1 -->
+        <div class="service-card animate-on-scroll">
+          <div class="s-icon"><i class="fa-solid fa-motorcycle"></i></div>
+          <h3 data-i18n="srv_1_t">फुल जनरल सर्विसिंग</h3>
+          <p data-i18n="srv_1_d">वाशिंग, कार्बोरेटर/FI क्लीनिंग, स्पार्क प्लग चेक, चेन ल्यूब, ब्रेक एडजस्टमेंट व फुल बॉडी टाइटनिंग।</p>
+          <ul class="srv-list">
+            <li><i class="fa-solid fa-check"></i> <span data-i18n="srv_1_p1">माइलेज और पिकअप ट्यूनिंग</span></li>
+            <li><i class="fa-solid fa-check"></i> <span data-i18n="srv_1_p2">हाई-प्रेशर वाटर वाश & पॉलिश</span></li>
+            <li><i class="fa-solid fa-check"></i> <span data-i18n="srv_1_p3">25+ पॉइंट सेफ्टी इंस्पेक्शन</span></li>
+          </ul>
+          <div class="s-bottom">
+            <span class="price-tag"><span data-i18n="starts_from">शुरुआती</span> ₹299*</span>
+            <a href="#booking" class="btn-text"><span data-i18n="book_srv">बुक करें</span> <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card highlighted animate-on-scroll">
+          <div class="popular-ribbon" data-i18n="most_popular">सबसे लोकप्रिय</div>
+          <div class="s-icon"><i class="fa-solid fa-gears"></i></div>
+          <h3 data-i18n="srv_2_t">इंजन ओवरहाल & बोरिंग</h3>
+          <p data-i18n="srv_2_d">धुआं फेंकना, इंजन की आवाज, ऑयल लीकेज, पिस्टन-सिलेंडर बोरिंग और क्लच प्लेट रिप्लेसमेंट का पक्का इलाज।</p>
+          <ul class="srv-list">
+            <li><i class="fa-solid fa-check"></i> <span data-i18n="srv_2_p1">ओरिजिनल पिस्टन & वाल्व फिटिंग</span></li>
+            <li><i class="fa-solid fa-check"></i> <span data-i18n="srv_2_p2">क्रैंक अलाइनमेंट & बेयरिंग चेंज</span></li>
+            <li><i class="fa-solid fa-check"></i> <span data-i18n="srv_2_p3">6 महीने तक परफॉर्मेंस सपोर्ट</span></li>
+          </ul>
+          <div class="s-bottom">
+            <span class="price-tag"><span data-i18n="inspection">इंस्पेक्शन उपरांत</span></span>
+            <a href="#booking" class="btn-text"><span data-i18n="book_srv">बुक करें</span> <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card animate-on-scroll">
+          <div class="s-icon"><i class="fa-solid fa-bolt"></i></div>
+          <h3 data-i18n="srv_3_t">इलेक्ट्रिकल & बैटरी चेक</h3>
+          <p data-i18n="srv_3_d">सेल्फ स्टार्ट रिपेयर, वायरिंग शॉर्टेज फिक्सिंग, डिजिटल मीटर, हेडलाइट/हॉर्न अपग्रेड और एक्साइड/अमरोन बैटरी टेस्टिंग।</p>
+          <ul class="srv-list">
+            <li><i class="fa-solid fa-check"></i> <span data-i18n="srv_3_p1">सेल्फ मोटर & रिले सर्विस</span></li>
+            <li><i class="fa-solid fa-check"></i> <span data-i18n="srv_3_p2">बैटरी हेल्थ और चार्जिंग टेस्ट</span></li>
+            <li><i class="fa-solid fa-check"></i> <span data-i18n="srv_3_p3">LED हेडलैम्प इंस्टॉलेशन</span></li>
+          </ul>
+          <div class="s-bottom">
+            <span class="price-tag"><span data-i18n="starts_from">शुरुआती</span> ₹149*</span>
+            <a href="#booking" class="btn-text"><span data-i18n="book_srv">बुक करें</span> <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card animate-on-scroll">
+          <div class="s-icon"><i class="fa-solid fa-circle-radiation"></i></div>
+          <h3 data-i18n="srv_4_t">टायर, ब्रेक & सस्पेंशन वर्क</h3>
+          <p data-i18n="srv_4_d">डिस्क ब्रेक पैड, ड्रम शू, शॉक-एब्जॉर्बर (कमानी/शॉकर) रिपेयर व ऑयल सील चेंज, ट्यूबलेस पंचर और व्हील अलाइनमेंट।</p>
+          <ul class="srv-list">
+            <li><i class="fa-solid fa-check"></i> <span data-i18n="srv_4_p1">फ्रंट फोर्क शॉक-ऑयल रिफिल</span></li>
+            <li><i class="fa-solid fa-check"></i> <span data-i18n="srv_4_p2">डिस्क ब्रेक फ्लुइड ब्लीडिंग</span></li>
+            <li><i class="fa-solid fa-check"></i> <span data-i18n="srv_4_p3">रिम बेंड और स्पोक टाइटनिंग</span></li>
+          </ul>
+          <div class="s-bottom">
+            <span class="price-tag"><span data-i18n="starts_from">शुरुआती</span> ₹199*</span>
+            <a href="#booking" class="btn-text"><span data-i18n="book_srv">बुक करें</span> <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="service-card animate-on-scroll">
+          <div class="s-icon"><i class="fa-solid fa-shower"></i></div>
+          <h3 data-i18n="srv_5_t">फोम वाशिंग & टेफ्लॉन कोटिंग</h3>
+          <p data-i18n="srv_5_d">स्नो फोम शैम्पू वाश, अंडरबॉडी डीग्रेसिंग, स्क्रैच रिमूवल, 3M टेफ्लॉन वैक्स और सिरेमिक स्प्रे कोटिंग।</p>
+          <ul class="srv-list">
+            <li><i class="fa-solid fa-check"></i> <span data-i18n="srv_5_p1">गहन डीजल/केमिकल डीग्रेसिंग</span></li>
+            <li><i class="fa-solid fa-check"></i> <span data-i18n="srv_5_p2">शो-रूम जैसी नई चमक</span></li>
+            <li><i class="fa-solid fa-check"></i> <span data-i18n="srv_5_p3">जंग (रस्ट) रोधक कोटिंग</span></li>
+          </ul>
+          <div class="s-bottom">
+            <span class="price-tag"><span data-i18n="starts_from">शुरुआती</span> ₹120*</span>
+            <a href="#booking" class="btn-text"><span data-i18n="book_srv">बुक करें</span> <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Service 6 -->
+        <div class="service-card animate-on-scroll">
+          <div class="s-icon"><i class="fa-solid fa-truck-pickup"></i></div>
+          <h3 data-i18n="srv_6_t">इमरजेंसी ब्रेकडाउन सहायता</h3>
+          <p data-i18n="srv_6_d">रास्ते में बाइक बंद होने, पंक्चर होने या स्टार्ट न होने पर क्विक ऑन-रोड असिस्टेंस और टोइंग सपोर्ट।</p>
+          <ul class="srv-list">
+            <li><i class="fa-solid fa-check"></i> <span data-i18n="srv_6_p1">लोकल एरिया में 20 मिनट में पहुंच</span></li>
+            <li><i class="fa-solid fa-check"></i> <span data-i18n="srv_6_p2">जंप-स्टार्ट & फ्यूल डिलीवरी</span></li>
+            <li><i class="fa-solid fa-check"></i> <span data-i18n="srv_6_p3">ऑन-स्पॉट पंक्चर सॉल्यूशन</span></li>
+          </ul>
+          <div class="s-bottom">
+            <span class="price-tag"><span data-i18n="emergency_call">तत्काल कॉल करें</span></span>
+            <a href="tel:+917389024644" class="btn-text"><span data-i18n="call_now">कॉल करें</span> <i class="fa-solid fa-phone"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Auto Parts Section -->
+  <section class="section bg-surface" id="parts">
+    <div class="container">
+      <div class="section-title-wrap">
+        <span class="sub-title" data-i18n="parts_sub">ओरिजिनल ऑटो पार्ट्स</span>
+        <h2 class="main-title" data-i18n="parts_head">सभी प्रमुख ब्रांड्स के जेन्युइन स्पेयर पार्ट्स</h2>
+        <p class="section-desc" data-i18n="parts_desc">
+          डुप्लीकेट पार्ट्स से बचें! हम केवल विश्वसनीय और अधिकृत कंपनियों के सीलबंद पार्ट्स ही बेचते हैं और लगाते हैं।
+        </p>
+      </div>
+
+      <!-- Parts Category Filters -->
+      <div class="filter-tabs">
+        <button class="tab-btn active" data-filter="all" data-i18n="tab_all">सभी पार्ट्स (All)</button>
+        <button class="tab-btn" data-filter="engine" data-i18n="tab_engine">इंजन & ऑयल</button>
+        <button class="tab-btn" data-filter="brakes" data-i18n="tab_brakes">ब्रेक & ट्रांसमिशन</button>
+        <button class="tab-btn" data-filter="electrical" data-i18n="tab_electrical">इलेक्ट्रिकल & बैटरी</button>
+        <button class="tab-btn" data-filter="body" data-i18n="tab_body">बॉडी व एक्सेसरीज</button>
+      </div>
+
+      <div class="parts-grid" id="partsContainer">
+        <!-- Item 1 -->
+        <div class="part-card" data-category="engine">
+          <div class="part-badge">100% Original</div>
+          <div class="part-icon"><i class="fa-solid fa-oil-can"></i></div>
+          <h4 data-i18n="part_1_t">प्रीमियम 4T इंजन ऑयल</h4>
+          <p class="part-compat" data-i18n="part_1_c">Castrol, Motul, Shell, HP 20W40 / 10W40</p>
+          <div class="part-price-row">
+            <span class="part-price">₹350 - ₹950</span>
+            <a href="https://wa.me/917389024644?text=मुझे%20इंजन%20ऑयल%20चाहिए" class="btn-cart-inquire" title="Inquire on WhatsApp">
+              <i class="fa-brands fa-whatsapp"></i> <span data-i18n="inquire">पूछताछ</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="part-card" data-category="brakes">
+          <div class="part-badge">Long Life</div>
+          <div class="part-icon"><i class="fa-solid fa-compact-disc"></i></div>
+          <h4 data-i18n="part_2_t">डिस्क पैड व ब्रेक शू</h4>
+          <p class="part-compat" data-i18n="part_2_c">Endurance, KBX, Bosch - पल्सर, एक्टिवा, अपाचे, शाइन</p>
+          <div class="part-price-row">
+            <span class="part-price">₹180 - ₹450</span>
+            <a href="https://wa.me/917389024644?text=मुझे%20ब्रेक%20शू%20चाहिए" class="btn-cart-inquire">
+              <i class="fa-brands fa-whatsapp"></i> <span data-i18n="inquire">पूछताछ</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="part-card" data-category="brakes">
+          <div class="part-badge">Heavy Duty</div>
+          <div class="part-icon"><i class="fa-solid fa-link"></i></div>
+          <h4 data-i18n="part_3_t">चेन स्प्रोकेट किट (Drive Chain)</h4>
+          <p class="part-compat" data-i18n="part_3_c">Rolon, Diamond, OEM किट - सभी मॉडल्स</p>
+          <div class="part-price-row">
+            <span class="part-price">₹650 - ₹1,850</span>
+            <a href="https://wa.me/917389024644?text=मुझे%20चेन%20स्प्रोकेट%20किट%20चाहिए" class="btn-cart-inquire">
+              <i class="fa-brands fa-whatsapp"></i> <span data-i18n="inquire">पूछताछ</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="part-card" data-category="electrical">
+          <div class="part-badge">Warranty 48M</div>
+          <div class="part-icon"><i class="fa-solid fa-car-battery"></i></div>
+          <h4 data-i18n="part_4_t">टू-व्हीलर बैटरियां</h4>
+          <p class="part-compat" data-i18n="part_4_c">Exide Xplore, Amaron Pro Bike Rider (2.5L/4L/5L)</p>
+          <div class="part-price-row">
+            <span class="part-price">₹850 - ₹1,900</span>
+            <a href="https://wa.me/917389024644?text=मुझे%20बाइक%20बैटरी%20चाहिए" class="btn-cart-inquire">
+              <i class="fa-brands fa-whatsapp"></i> <span data-i18n="inquire">पूछताछ</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="part-card" data-category="engine">
+          <div class="part-badge">High Pickup</div>
+          <div class="part-icon"><i class="fa-solid fa-ring"></i></div>
+          <h4 data-i18n="part_5_t">क्लच प्लेट & प्रेशर प्लेट किट</h4>
+          <p class="part-compat" data-i18n="part_5_c">MK, FCC, Hero/Bajaj Genuine Clutches</p>
+          <div class="part-price-row">
+            <span class="part-price">₹320 - ₹880</span>
+            <a href="https://wa.me/917389024644?text=मुझे%20क्लच%20प्लेट%20चाहिए" class="btn-cart-inquire">
+              <i class="fa-brands fa-whatsapp"></i> <span data-i18n="inquire">पूछताछ</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Item 6 -->
+        <div class="part-card" data-category="electrical">
+          <div class="part-badge">Genuine NGK</div>
+          <div class="part-icon"><i class="fa-solid fa-bolt-lightning"></i></div>
+          <h4 data-i18n="part_6_t">स्पार्क प्लग (इरिडियम/नॉर्मल)</h4>
+          <p class="part-compat" data-i18n="part_6_c">NGK, Champion, Bosch ओरिजिनल स्पार्क प्लग</p>
+          <div class="part-price-row">
+            <span class="part-price">₹90 - ₹450</span>
+            <a href="https://wa.me/917389024644?text=मुझे%20स्पार्क%20प्लग%20चाहिए" class="btn-cart-inquire">
+              <i class="fa-brands fa-whatsapp"></i> <span data-i18n="inquire">पूछताछ</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Item 7 -->
+        <div class="part-card" data-category="body">
+          <div class="part-badge">Durable</div>
+          <div class="part-icon"><i class="fa-solid fa-shield-virus"></i></div>
+          <h4 data-i18n="part_7_t">हेडलाइट, इंडिकेटर व साइड ग्लास</h4>
+          <p class="part-compat" data-i18n="part_7_c">Lumax, Minda, Uno OEM फिटिंग व फिनिश</p>
+          <div class="part-price-row">
+            <span class="part-price">₹120 - ₹750</span>
+            <a href="https://wa.me/917389024644?text=मुझे%20लाइट/मिरर%20चाहिए" class="btn-cart-inquire">
+              <i class="fa-brands fa-whatsapp"></i> <span data-i18n="inquire">पूछताछ</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Item 8 -->
+        <div class="part-card" data-category="engine">
+          <div class="part-badge">Dust Proof</div>
+          <div class="part-icon"><i class="fa-solid fa-wind"></i></div>
+          <h4 data-i18n="part_8_t">एयर फिल्टर व ऑयल फिल्टर</h4>
+          <p class="part-compat" data-i18n="part_8_c">साफ हवा से मिलेगा 20% बेहतर माइलेज</p>
+          <div class="part-price-row">
+            <span class="part-price">₹80 - ₹280</span>
+            <a href="https://wa.me/917389024644?text=मुझे%20एयर%20फिल्टर%20चाहिए" class="btn-cart-inquire">
+              <i class="fa-brands fa-whatsapp"></i> <span data-i18n="inquire">पूछताछ</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Brands Marquee / Supported Brands -->
+      <div class="brands-section">
+        <h5 class="brand-title" data-i18n="brands_supported">सपोर्टेड बाइक ब्रांड्स & पार्ट्स पार्टनर</h5>
+        <div class="brand-tags">
+          <span class="brand-pill"><i class="fa-solid fa-check"></i> Hero MotoCorp</span>
+          <span class="brand-pill"><i class="fa-solid fa-check"></i> Honda Two-Wheelers</span>
+          <span class="brand-pill"><i class="fa-solid fa-check"></i> Bajaj Auto</span>
+          <span class="brand-pill"><i class="fa-solid fa-check"></i> TVS Motors</span>
+          <span class="brand-pill"><i class="fa-solid fa-check"></i> Royal Enfield</span>
+          <span class="brand-pill"><i class="fa-solid fa-check"></i> Yamaha</span>
+          <span class="brand-pill"><i class="fa-solid fa-check"></i> Suzuki</span>
+          <span class="brand-pill"><i class="fa-solid fa-check"></i> KTM / Jawa</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Machine Repairing & Engineering Works Section -->
+  <section class="section" id="machine">
+    <div class="container">
+      <div class="section-title-wrap">
+        <span class="sub-title sub-machine" data-i18n="mach_sub">विशेषज्ञ मशीनरी एवं खराद कार्य</span>
+        <h2 class="main-title" data-i18n="mach_head">मशीन रिपेयरिंग, लेथ (खराद) एवं इंडस्ट्रियल वर्क्स</h2>
+        <p class="section-desc" data-i18n="mach_desc">
+          टू-व्हीलर के अलावा हमारे पास हाई-प्रिसिजन लेथ मशीन, इलेक्ट्रिक मोटर रिवाइंडिंग और विभिन्न प्रकार की कृषि व घरेलू मशीनों की रिपेयरिंग की बेहतरीन व्यवस्था है।
+        </p>
+      </div>
+
+      <div class="machine-showcase">
+        <div class="machine-feature-card animate-on-scroll">
+          <div class="mf-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+          <div class="mf-content">
+            <h3 data-i18n="mach_card1_t">खराद (Lathe) मशीन एवं टर्निंग कार्य</h3>
+            <p data-i18n="mach_card1_d">बाइक इंजन ब्लॉक बोरिंग, स्लीव फिटिंग, क्रैंक शाफ्ट रिपेयर, थ्रेड (चूड़ी) काटना, बुश बनाना एवं मेटल टर्निंग का सटीक काम।</p>
+            <div class="tag-row">
+              <span>इंजन बोरिंग</span>
+              <span>स्लीविंग</span>
+              <span>बुश कटिंग</span>
+              <span>थ्रेड मेकिंग</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="machine-feature-card animate-on-scroll">
+          <div class="mf-icon"><i class="fa-solid fa-fire-burner"></i></div>
+          <div class="mf-content">
+            <h3 data-i18n="mach_card2_t">आर्क, गैस और आर्गन वेल्डिंग</h3>
+            <p data-i18n="mach_card2_d">टूटे हुए बाइक चेसिस, साइलेंसर, फुट-रेस्ट, भारी मशीनरी पार्ट्स, एल्यूमीनियम कास्टिंग व लोहे के पार्ट्स की मजबूत वेल्डिंग।</p>
+            <div class="tag-row">
+              <span>चेसिस वेल्डिंग</span>
+              <span>साइलेंसर पैचिंग</span>
+              <span>एल्यूमीनियम वेल्डिंग</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="machine-feature-card animate-on-scroll">
+          <div class="mf-icon"><i class="fa-solid fa-water"></i></div>
+          <div class="mf-content">
+            <h3 data-i18n="mach_card3_t">इलेक्ट्रिक मोटर व पंप रिपेयरिंग</h3>
+            <p data-i18n="mach_card3_d">सबमर्सिबल पंप, पानी की मोटर, चक्की मोटर, इंडस्ट्रियल 3-फेज मोटर रिवाइंडिंग, बेयरिंग बदलना और सील रिपेयर।</p>
+            <div class="tag-row">
+              <span>कॉपर रिवाइंडिंग</span>
+              <span>पंप सील फिटिंग</span>
+              <span>बेयरिंग रिप्लेसमेंट</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="machine-feature-card animate-on-scroll">
+          <div class="mf-icon"><i class="fa-solid fa-tractor"></i></div>
+          <div class="mf-content">
+            <h3 data-i18n="mach_card4_t">कृषि एवं वर्कशॉप पावर टूल्स रिपेयर</h3>
+            <p data-i18n="mach_card4_d">एंगल ग्राइंडर, ड्रिल मशीन, कटर, जनरेटर, थ्रेशर के पुर्जे व चारा काटने वाली मशीन (कुट्टी मशीन) की संपूर्ण रिपेयरिंग।</p>
+            <div class="tag-row">
+              <span>आर्मेचर चेंज</span>
+              <span>गियरबॉक्स सर्विस</span>
+              <span>जनरेटर ट्यूनिंग</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Workshop Machinery Highlights -->
+      <div class="machinery-strip">
+        <div class="strip-item">
+          <i class="fa-solid fa-certificate"></i>
+          <div>
+            <strong data-i18n="strip1_t">प्रिसिजन गेज नाप</strong>
+            <p data-i18n="strip1_d">0.01 mm तक की एक्यूरेसी के साथ काम</p>
+          </div>
+        </div>
+        <div class="strip-item">
+          <i class="fa-solid fa-handshake"></i>
+          <div>
+            <strong data-i18n="strip2_t">ऑन-टाइम डिलीवरी</strong>
+            <p data-i18n="strip2_d">कम से कम समय में मशीनरी तैयार</p>
+          </div>
+        </div>
+        <div class="strip-item">
+          <i class="fa-solid fa-medal"></i>
+          <div>
+            <strong data-i18n="strip3_t">मजबूती की गारंटी</strong>
+            <p data-i18n="strip3_d">हैवी ड्यूटी मेटल्स और कॉपर वायर इस्तेमाल</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Online Booking Form -->
+  <section class="section bg-surface" id="booking">
+    <div class="container">
+      <div class="booking-wrapper">
+        <div class="booking-info">
+          <span class="sub-title" data-i18n="book_sub">आसान और तेज़ बुकिंग</span>
+          <h2 class="main-title" data-i18n="book_head">ऑनलाइन सर्विस या रिपेयर स्लॉट बुक करें</h2>
+          <p data-i18n="book_desc">
+            वर्कशॉप पर भीड़ में इंतजार करने से बचें! अपना विवरण भरें, स्लॉट बुक करें और तय समय पर प्राथमिकता सेवा पाएं।
+          </p>
+
+          <div class="perks-list">
+            <div class="perk">
+              <i class="fa-solid fa-clock-rotate-left"></i>
+              <div>
+                <strong data-i18n="perk1_t">जीरो वेटिंग टाइम</strong>
+                <p data-i18n="perk1_d">पहले से स्लॉट बुक होने पर तुरंत काम शुरू</p>
+              </div>
+            </div>
+            <div class="perk">
+              <i class="fa-solid fa-hand-holding-dollar"></i>
+              <div>
+                <strong data-i18n="perk2_t">फ्री 25-पॉइंट चेकअप</strong>
+                <p data-i18n="perk2_d">ऑनलाइन बुकिंग पर मुफ़्त सामान्य डायग्नोसिस</p>
+              </div>
+            </div>
+            <div class="perk">
+              <i class="fa-solid fa-bell"></i>
+              <div>
+                <strong data-i18n="perk3_t">व्हाट्सएप पर स्टेटस अपडेट</strong>
+                <p data-i18n="perk3_d">गाड़ी तैयार होते ही आपको मैसेज मिल जाएगा</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="emergency-badge">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+            <div>
+              <span data-i18n="urgent_help">बाइक रास्ते में खराब है?</span>
+              <a href="tel:+917389024644" class="call-urgent"><i class="fa-solid fa-phone"></i> 73890 24644 पर तुरंत कॉल करें</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="booking-form-card">
+          <form id="serviceBookingForm" class="booking-form">
+            <h3 class="form-title" data-i18n="form_title">सर्विस बुकिंग फॉर्म</h3>
+            
+            <div class="form-group">
+              <label for="customerName" data-i18n="lbl_name">आपका पूरा नाम *</label>
+              <div class="input-with-icon">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" id="customerName" placeholder="जैसे: राहुल शर्मा" required />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="customerPhone" data-i18n="lbl_phone">मोबाइल नंबर (WhatsApp) *</label>
+                <div class="input-with-icon">
+                  <i class="fa-solid fa-phone"></i>
+                  <input type="tel" id="customerPhone" placeholder="10 अंकों का मोबाइल नंबर" pattern="[0-9]{10}" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="serviceCategory" data-i18n="lbl_category">काम का प्रकार चुनें *</label>
+                <div class="input-with-icon">
+                  <i class="fa-solid fa-list-check"></i>
+                  <select id="serviceCategory" required>
+                    <option value="Bike General Service" data-i18n="opt_bike_gen">बाइक जनरल सर्विसिंग</option>
+                    <option value="Bike Engine Overhaul" data-i18n="opt_bike_eng">बाइक इंजन व बोरिंग काम</option>
+                    <option value="Bike Electrical & Battery" data-i18n="opt_bike_elec">बाइक वायरिंग व बैटरी</option>
+                    <option value="Lathe / Machine Boring" data-i18n="opt_mach_lathe">लेथ मशीन / खराद काम</option>
+                    <option value="Electric Motor Rewinding" data-i18n="opt_mach_motor">इलेक्ट्रिक मोटर रिवाइंडिंग</option>
+                    <option value="Welding & Fabrication" data-i18n="opt_mach_weld">वेल्डिंग व फैब्रिकेशन</option>
+                    <option value="Spares / Parts Purchase" data-i18n="opt_parts_buy">स्पेयर पार्ट्स की खरीदारी</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="vehicleModel" data-i18n="lbl_vehicle">बाइक मॉडल / मशीन का नाम</label>
+                <div class="input-with-icon">
+                  <i class="fa-solid fa-motorcycle"></i>
+                  <input type="text" id="vehicleModel" placeholder="उदा. Splendor Plus / 2HP Motor" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="preferredDate" data-i18n="lbl_date">पसंदीदा तारीख</label>
+                <div class="input-with-icon">
+                  <i class="fa-solid fa-calendar"></i>
+                  <input type="date" id="preferredDate" required />
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="problemNotes" data-i18n="lbl_notes">समस्या या विवरण (वैकल्पिक)</label>
+              <textarea id="problemNotes" rows="3" placeholder="गाड़ी या मशीन में क्या खराबी आ रही है, यहां लिखें..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span data-i18n="btn_submit_booking">WhatsApp पर बुकिंग कन्फर्म करें</span>
+            </button>
+            <p class="form-disclaimer" data-i18n="booking_privacy">
+              <i class="fa-solid fa-lock"></i> आपका नंबर सुरक्षित है। हम कोई स्पैम नहीं करते।
+            </p>
+          </form>
+
+          <!-- Success Modal / Toast Notice -->
+          <div id="bookingToast" class="booking-toast">
+            <i class="fa-solid fa-circle-check"></i>
+            <div>
+              <h4 data-i18n="toast_head">बुकिंग तैयार!</h4>
+              <p data-i18n="toast_sub">हम आपको व्हाट्सएप पर जोड़ रहे हैं...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Google Maps Live Reviews Showcase Section (Like Shubham Traders) -->
+  <section class="section" id="reviews">
+    <div class="container">
+      <div class="section-title-wrap">
+        <span class="sub-title" data-i18n="rev_sub">⭐ गूगल मैप्स लाइव समीक्षा</span>
+        <h2 class="main-title" data-i18n="rev_head">सिंघई ऑटो पार्ट्स गूगल मैप्स रेटिंग व समीक्षाएं</h2>
+        <p class="section-desc" data-i18n="rev_desc">
+          हमारे सभी ग्राहकों एवं वाहन स्वामियों की वास्तविक रेटिंग्स व समीक्षाएं सीधे गूगल मैप्स पर सत्यापित हैं।
+        </p>
+      </div>
+
+      <div class="google-reviews-showcase">
+        <div class="google-rating-card animate-on-scroll">
+          <div class="google-badge-top">
+            <svg viewBox="0 0 24 24" width="40" height="40" class="google-g-icon">
+              <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+              <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+              <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+              <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+            </svg>
+            <div class="google-verified-text">
+              <span class="google-name">Google Business Profile</span>
+              <span class="google-verified-tag"><i class="fa-solid fa-circle-check"></i> 100% Verified Business</span>
+            </div>
+          </div>
+
+          <div class="google-score-box">
+            <span class="google-big-rating">5.0</span>
+            <div class="google-stars-wrap">
+              <div class="google-stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <span class="google-rating-label" data-i18n="google_rating_label">
+                उत्कृष्ट ग्राहक संतुष्टि एवं भरोसेमंद सेवा
+              </span>
+            </div>
+          </div>
+
+          <p class="google-prompt-text" data-i18n="google_prompt_text">
+            गढ़ाकोटा व सागर जिले के बाइक राइडर्स, गैराज मैकेनिकों एवं वर्कशॉप स्वामियों के वास्तविक अनुभव पढ़ने या अपनी समीक्षा साझा करने के लिए गूगल मैप्स पर पधारें।
+          </p>
+
+          <div class="google-card-actions">
+            <a
+              href="https://www.google.com/maps/place/%E0%A4%B8%E0%A4%BF%E0%A4%82%E0%A4%98%E0%A4%88+%E0%A4%91%E0%A4%9F%E0%A5%8B+%E0%A4%AA%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%9F%E0%A5%8D%E0%A4%B8+%E0%A4%8F%E0%A4%B5%E0%A4%82+%E0%A4%87%E0%A4%B2%E0%A5%87%E0%A4%95%E0%A5%8D%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A4%B2%E0%A5%8D%E0%A4%B8/@23.781428,79.147541,17z"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-google-map"
+            >
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              <span data-i18n="btn_view_google_reviews">गूगल मैप्स पर सभी लाइव रिव्यू देखें</span>
+            </a>
+            <a
+              href="https://www.google.com/maps/place/%E0%A4%B8%E0%A4%BF%E0%A4%82%E0%A4%98%E0%A4%88+%E0%A4%91%E0%A4%9F%E0%A5%8B+%E0%A4%AA%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%9F%E0%A5%8D%E0%A4%B8+%E0%A4%8F%E0%A4%B5%E0%A4%82+%E0%A4%87%E0%A4%B2%E0%A5%87%E0%A4%95%E0%A5%8D%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A4%B2%E0%A5%8D%E0%A4%B8/@23.781428,79.147541,17z"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-write-review"
+            >
+              <i class="fa-solid fa-pen-to-square"></i>
+              <span data-i18n="btn_write_google_review">अपनी रेटिंग / रिव्यू दर्ज करें</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Location & Contact Section -->
+  <section class="section bg-surface" id="contact">
+    <div class="container">
+      <div class="section-title-wrap">
+        <span class="sub-title" data-i18n="contact_sub">हमसे मिलें</span>
+        <h2 class="main-title" data-i18n="contact_head">वर्कशॉप का पता और संपर्क सूत्र</h2>
+        <p class="section-desc" data-i18n="contact_desc">
+          आप कभी भी हमारे वर्कशॉप पर आ सकते हैं या नीचे दिए गए नंबरों पर सीधे संपर्क कर सकते हैं।
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info-card">
+          <div class="contact-channel">
+            <div class="c-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <h4 data-i18n="c_addr_t">वर्कशॉप का पता</h4>
+              <p data-i18n="c_addr_d">सिंघई ऑटो पार्ट्स एवं इलेक्ट्रिकल्स, दमोह रोड, गढ़ाकोटा, जिला सागर, मध्य प्रदेश - 470229</p>
+            </div>
+          </div>
+
+          <div class="contact-channel">
+            <div class="c-icon"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <h4 data-i18n="c_call_t">कॉल व पूछताछ</h4>
+              <p>
+                <a href="tel:+917389024644">+91 73890 24644</a> &nbsp;|&nbsp; 
+                <a href="tel:+919302378439">+91 93023 78439</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="contact-channel">
+            <div class="c-icon"><i class="fa-brands fa-whatsapp"></i></div>
+            <div>
+              <h4 data-i18n="c_wa_t">व्हाट्सएप सहायता</h4>
+              <p><a href="https://wa.me/917389024644?text=नमस्ते!%20सिंघई%20ऑटो%20पार्ट्स%20गढ़ाकोटा%20से%20संपर्क%20करना%20चाहते%20हैं।" target="_blank">+91 73890 24644 (तुरंत जवाब पाएं)</a></p>
+            </div>
+          </div>
+
+          <div class="contact-channel">
+            <div class="c-icon"><i class="fa-solid fa-clock"></i></div>
+            <div>
+              <h4 data-i18n="c_time_t">खुलने का समय</h4>
+              <p data-i18n="c_time_d">सोमवार से रविवार: 09:00 AM - 10:00 PM (रोजाना खुला)</p>
+            </div>
+          </div>
+
+          <div class="social-share">
+            <a href="tel:+917389024644" class="btn btn-primary"><i class="fa-solid fa-phone"></i> <span data-i18n="call_workshop">वर्कशॉप पर कॉल करें</span></a>
+            <a href="https://www.google.com/maps/place/%E0%A4%B8%E0%A4%BF%E0%A4%82%E0%A4%98%E0%A4%88+%E0%A4%91%E0%A4%9F%E0%A5%8B+%E0%A4%AA%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%9F%E0%A5%8D%E0%A4%B8+%E0%A4%8F%E0%A4%B5%E0%A4%82+%E0%A4%87%E0%A4%B2%E0%A5%87%E0%A4%95%E0%A5%8D%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A4%B2%E0%A5%8D%E0%A4%B8/@23.781428,79.147541,17z" target="_blank" class="btn btn-outline"><i class="fa-solid fa-diamond-turn-right"></i> <span data-i18n="get_directions">गूगल मैप पर लोकेशन देखें</span></a>
+          </div>
+        </div>
+
+        <!-- Google Map Interactive Embed for Singhai Auto Parts Garhakota -->
+        <div class="map-card">
+          <div class="map-header">
+            <span><i class="fa-solid fa-map-pin"></i> सिंघई ऑटो पार्ट्स एवं इलेक्ट्रिकल्स (गढ़ाकोटा)</span>
+            <span class="live-dot"><i class="fa-solid fa-circle"></i> खुला है (Open)</span>
+          </div>
+          <iframe 
+            src="https://maps.google.com/maps?q=23.781428,79.147541+(Singhai+Auto+Parts+%26+Electricals+Garhakota)&t=&z=16&ie=UTF8&iwloc=B&output=embed" 
+            width="100%" 
+            height="100%" 
+            style="border:0; min-height: 400px; border-radius: 0 0 16px 16px;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="section-title-wrap">
+        <span class="sub-title" data-i18n="faq_sub">अक्सर पूछे जाने वाले सवाल</span>
+        <h2 class="main-title" data-i18n="faq_head">आम सवाल और उनके जवाब</h2>
+      </div>
+
+      <div class="faq-accordion">
+        <div class="faq-item">
+          <button class="faq-question">
+            <span data-i18n="faq_q1">बाइक की सामान्य सर्विसिंग में कितना समय लगता है?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p data-i18n="faq_a1">सामान्य सर्विसिंग (वाशिंग, ऑयल चेंज, फिल्टर क्लीनिंग और ट्यूनिंग) में आमतौर पर 1.5 से 2 घंटे का समय लगता है। अगर आप पहले से स्लॉट बुक करके आते हैं तो गाड़ी और भी जल्दी हैंडओवर कर दी जाती है।</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span data-i18n="faq_q2">क्या आप ओरिजिनल (कंपनी) स्पेयर पार्ट्स ही इस्तेमाल करते हैं?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p data-i18n="faq_a2">जी हां, 100%! हम Hero, Bajaj, Honda, TVS, Yamaha आदि के अधिकृत ओरिजिनल पार्ट्स और Castrol/Motul जैसे प्रमाणित ऑयल ही इस्तेमाल करते हैं। आप पार्ट का बारकोड व सील स्वयं चेक कर सकते हैं।</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span data-i18n="faq_q3">मशीन रिपेयरिंग और लेथ वर्क में क्या-क्या काम होता है?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p data-i18n="faq_a3">हमारे पास आधुनिक लेथ मशीन और वेल्डिंग प्लांट है। हम टू-व्हीलर इंजन बोरिंग, क्रैंक अलाइनमेंट, चूड़ी बनाना, बुश कटिंग, समर्सिबल व पानी की मोटर रिवाइंडिंग, और कृषि मशीनरी (कुट्टी मशीन आदि) की रिपेयरिंग करते हैं।</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span data-i18n="faq_q4">क्या पिकअप और ड्रॉप की सुविधा उपलब्ध है?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p data-i18n="faq_a4">जी हां, 5 किलोमीटर के दायरे में पिकअप और ड्रॉप की सुविधा न्यूनतम चार्ज पर उपलब्ध है। आप व्हाट्सएप या कॉल करके पिकअप शेड्यूल कर सकते हैं।</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-col brand-col">
+        <a href="#hero" class="brand-logo footer-logo">
+          <div class="logo-icon"><i class="fa-solid fa-motorcycle"></i></div>
+          <div class="logo-text">
+            <span class="logo-title" data-i18n="logo_title">सिंघई <span class="highlight">ऑटो</span></span>
+            <span class="logo-subtitle" data-i18n="logo_subtitle">ऑटो पार्ट्स, सर्विस & इलेक्ट्रिकल्स • गढ़ाकोटा</span>
+          </div>
+        </a>
+        <p class="footer-bio" data-i18n="footer_bio">
+          सर्वश्रेष्ठ टू-व्हीलर सर्विसिंग, असली ऑटो पार्ट्स, लेथ मशीन रिपेयरिंग और मोटर रिवाइंडिंग का गढ़ाकोटा में सबसे विश्वसनीय केंद्र।
+        </p>
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://wa.me/917389024644" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="tel:+917389024644" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="f-head" data-i18n="f_links">त्वरित लिंक</h4>
+        <ul class="f-list">
+          <li><a href="#hero" data-i18n="nav_home">होम</a></li>
+          <li><a href="#services" data-i18n="nav_services">सर्विस पैकेज</a></li>
+          <li><a href="#parts" data-i18n="nav_parts">ऑटो पार्ट्स स्टोर</a></li>
+          <li><a href="#machine" data-i18n="nav_machine">मशीन व खराद कार्य</a></li>
+          <li><a href="#booking" data-i18n="nav_booking">ऑनलाइन बुकिंग</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="f-head" data-i18n="f_services">प्रमुख सेवाएं</h4>
+        <ul class="f-list">
+          <li data-i18n="srv_1_t">फुल जनरल सर्विसिंग</li>
+          <li data-i18n="srv_2_t">इंजन ओवरहाल & बोरिंग</li>
+          <li data-i18n="srv_3_t">इलेक्ट्रिकल & बैटरी चेक</li>
+          <li data-i18n="mach_card1_t">खराद (Lathe) मशीन कार्य</li>
+          <li data-i18n="mach_card3_t">मोटर रिवाइंडिंग & पंप रिपेयर</li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="f-head" data-i18n="f_contact_info">संपर्क एवं समय</h4>
+        <p class="f-contact-item"><i class="fa-solid fa-phone"></i> <a href="tel:+917389024644">+91 73890 24644</a></p>
+        <p class="f-contact-item"><i class="fa-solid fa-phone"></i> <a href="tel:+919302378439">+91 93023 78439</a></p>
+        <p class="f-contact-item"><i class="fa-solid fa-location-dot"></i> दमोह रोड, गढ़ाकोटा (सागर)</p>
+        <div class="payment-badges">
+          <span class="pay-badge"><i class="fa-solid fa-qrcode"></i> UPI / PhonePe / GPay</span>
+          <span class="pay-badge"><i class="fa-solid fa-money-bill-wave"></i> Cash</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container bottom-flex">
+        <p>© 2026 सिंघई ऑटो पार्ट्स एवं इलेक्ट्रिकल्स (Singhai Auto Parts), गढ़ाकोटा। <span data-i18n="all_rights">सर्वाधिकार सुरक्षित।</span></p>
+        <p class="dev-tag"><i class="fa-solid fa-code"></i> Designed for High Performance & Customer Trust</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Sticky Action Buttons for Mobile & Desktop -->
+  <div class="floating-actions">
+    <a href="https://wa.me/917389024644?text=नमस्ते!%20मुझे%20सर्विस%20या%20पार्ट्स%20की%20जानकारी%20चाहिए।" target="_blank" class="float-btn float-wa" aria-label="Chat on WhatsApp">
+      <i class="fa-brands fa-whatsapp"></i>
+      <span class="float-tooltip" data-i18n="float_wa">WhatsApp पर बात करें</span>
+    </a>
+    <a href="tel:+917389024644" class="float-btn float-call" aria-label="Call Now">
+      <i class="fa-solid fa-phone"></i>
+      <span class="float-tooltip" data-i18n="float_call">कॉल करें</span>
+    </a>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
