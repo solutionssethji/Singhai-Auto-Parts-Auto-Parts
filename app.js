@@ -370,10 +370,11 @@ const translations = {
   }
 };
 
-let currentLang = 'hi';
+let currentLang = 'en';
 
 function applyLanguage(lang) {
   currentLang = lang;
+  localStorage.setItem('singhai_lang', lang);
   document.documentElement.lang = lang;
   const dict = translations[lang];
 
@@ -432,6 +433,10 @@ document.addEventListener('DOMContentLoaded', () => {
     dateInput.value = today;
     dateInput.min = today;
   }
+
+  // Apply default language (English)
+  const savedLang = localStorage.getItem('singhai_lang') || 'en';
+  applyLanguage(savedLang);
 
   // Language switch event
   const langToggleBtn = document.getElementById('langToggleBtn');
